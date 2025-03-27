@@ -100,6 +100,15 @@ customer         | customer_id
 ### Задание 3*
 3.1. Уберите у пользователя sys_temp права на внесение, изменение и удаление данных из базы sakila.
 
+```bash
+mysql -u root -p 
+show grants for 'sys_temp'@'%';
+grant ALL PRIVILEGES on SakilaDB.* to 'sys_temp'@'%';
+revoke INSERT, UPDATE, DELETE on SakilaDB.* from 'sys_temp'@'%';
+show grants for 'sys_temp'@'%';
+flush privileges;
+```
+
 3.2. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
