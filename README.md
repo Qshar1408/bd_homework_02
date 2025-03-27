@@ -15,11 +15,21 @@ sudo systemctl status mysql
 
 1.2. Создайте учётную запись sys_temp. 
 
+ ![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_002.png)
+
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_003.png)
 
 1.4. Дайте все права для пользователя sys_temp. 
 
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_004.png)
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_005.png)
+
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_006.png)
 
 1.6. Переподключитесь к базе данных от имени sys_temp.
 
