@@ -112,3 +112,8 @@ flush privileges;
 3.2. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_013.png)
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_014.png)
+
