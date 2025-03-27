@@ -11,6 +11,7 @@ sudo apt update
 sudo apt install mysql-server
 sudo systemctl status mysql
 ```
+ ![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_001.png)
 
 1.2. Создайте учётную запись sys_temp. 
 
