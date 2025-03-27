@@ -25,9 +25,10 @@ sudo systemctl status mysql
 
 ![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_004.png)
 
-![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_005.png)
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_005.png)
 
 ![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_006.png)
 
@@ -37,6 +38,9 @@ sudo systemctl status mysql
 ```sql
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_007.png)
+
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
 1.7. Восстановите дамп в базу данных.
