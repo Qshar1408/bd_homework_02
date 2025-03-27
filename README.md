@@ -43,12 +43,47 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
+```bash
+wget -c https://downloads.mysql.com/docs/sakila-db.zip
+unzip sakila-db.zip
+cd sakila-db
+```
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_008.png)
+
 1.7. Восстановите дамп в базу данных.
+
+```bash
+mysql -u sys_temp -p
+show databases;
+create database SakilaDB;
+show databases;
+use SakilaDB;
+show tables;
+source sakila-schema.sql;
+source sakila-data.sql;
+show tables;
+exit
+```
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_009.png)
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_010.png)
 
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
 
+```bash
+mysql -u sys_temp -p
+show databases;
+use SakilaDB;
+show tables;
+exit
+```
+
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_010.png)
+![bd_002](https://github.com/Qshar1408/bd_homework_02/blob/main/img/bd_homework_02_011.png)
 
 ### Задание 2
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
